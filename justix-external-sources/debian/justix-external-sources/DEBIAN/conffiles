@@ -1,0 +1,9 @@
+/etc/apt/sources.list.d/cwchien-gradle.list
+/etc/apt/sources.list.d/docker.list
+/etc/apt/sources.list.d/google-chrome.list
+/etc/apt/sources.list.d/lyzardking-ubuntu-ubuntu-make-focal.list
+/etc/apt/sources.list.d/mongodb-org-4.2.list
+/etc/apt/sources.list.d/oracle-virtualbox.list
+/etc/apt/sources.list.d/otto-kesselgulasch-ubuntu-gimp-bionic.list
+/etc/apt/sources.list.d/vscode.list
+/etc/apt/sources.list.d/xenatt-ubuntu-xenlism-bionic.list
