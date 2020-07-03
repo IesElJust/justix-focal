@@ -1,0 +1,72 @@
+################################################
+# Política de seguretat per a l'usuari "alumne"#
+# Permet executar:                             #
+#  apt-get update                              #
+#  apt-get upgrade                             #
+#  apt-get dist-upgrade                        #
+#  apt-get clean                               #
+################################################
+
+#### CONF. Global
+
+# Alias per al nom del host
+Host_Alias LOCAL = localhost, ${HOSTNAME}
+
+# Configuració per a les contrassenyes
+Defaults passwd_tries = 3, passwd_timeout = 5
+
+# Màscara de directoris y fitxers per defecte
+Defaults@LOCAL umask = 0022
+
+#### USUARIS
+
+# Alias per a "alumne"
+User_Alias ALUMNE = alumne
+
+#### ORDRES
+
+# Alias per a les ordres
+Cmnd_Alias CMD_APT_GET_UPDATE = /usr/bin/apt-get update
+Cmnd_Alias CMD_APT_GET_UPGRADE = /usr/bin/apt-get upgrade
+Cmnd_Alias CMD_APT_GET_DIST_UPGRADE = /usr/bin/apt-get dist-upgrade
+Cmnd_Alias CMD_APT_GET_CLEAN = /usr/bin/apt-get clean
+Cmnd_Alias CMD_APT_UPDATE = /usr/bin/apt update
+Cmnd_Alias CMD_APT_UPGRADE = /usr/bin/apt upgrade
+Cmnd_Alias CMD_APT_DIST_UPGRADE = /usr/bin/apt dist-upgrade
+Cmnd_Alias CMD_APT_INSTALL_ASIX = /usr/bin/apt install justix-asix-meta
+Cmnd_Alias CMD_APT_INSTALL_DAM = /usr/bin/apt install justix-dam-meta
+Cmnd_Alias CMD_APT_INSTALL_SMX = /usr/bin/apt install justix-smx-meta
+Cmnd_Alias CMD_APT_GET_INSTALL_ASIX = /usr/bin/apt-get install justix-asix-meta
+Cmnd_Alias CMD_APT_GET_INSTALL_DAM = /usr/bin/apt-get install justix-dam-meta
+Cmnd_Alias CMD_APT_GET_INSTALL_SMX = /usr/bin/apt-get install justix-smx-meta
+Cmnd_Alias CMD_APT_CLEAN = /usr/bin/apt clean
+Cmnd_Alias CMD_QEMU=/usr/bin/qemu-system-x86_64
+Cmnd_Alias CMD_UPDATE_VBOX_EXTPACK = /usr/lib/virtualbox/VBoxExtPackHelperApp
+Cmnd_Alias CMD_UMAKE = /usr/bin/umake
+Cmnd_Alias CMD_MN = /usr/bin/mn
+Cmnd_Alias CMD_MNEXEC = /usr/bin/mnexec
+Cmnd_Alias CMD_SNAPREFRESH = /usr/bin/snap refresh
+Cmnd_Alias CMD_UBIQUITY = /usr/bin/ubiquity
+
+#### REGLES
+ALUMNE ALL = PASSWD:CMD_APT_GET_UPDATE
+ALUMNE ALL = PASSWD:CMD_APT_GET_UPGRADE
+ALUMNE ALL = PASSWD:CMD_APT_GET_DIST_UPGRADE
+ALUMNE ALL = PASSWD:CMD_APT_GET_CLEAN
+ALUMNE ALL = PASSWD:CMD_APT_UPDATE
+ALUMNE ALL = PASSWD:CMD_APT_UPGRADE
+ALUMNE ALL = PASSWD:CMD_APT_DIST_UPGRADE
+ALUMNE ALL = PASSWD:CMD_APT_CLEAN
+ALUMNE ALL = PASSWD:CMD_QEMU
+ALUMNE ALL = PASSWD:CMD_UPDATE_VBOX_EXTPACK
+ALUMNE ALL = PASSWD:CMD_UMAKE
+ALUMNE ALL = PASSWD:CMD_MN
+ALUMNE ALL = PASSWD:CMD_MNEXEC
+ALUMNE ALL = PASSWD:CMD_SNAPREFRESH
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_ASIX
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_DAM
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_SMX
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_ASIX
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_DAM
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_SMX
+ALUMNE ALL = PASSWD:CMD_UBIQUITY

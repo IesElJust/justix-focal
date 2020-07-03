@@ -1,0 +1,98 @@
+justix-common-utils (0.1.1) focal; urgency=high
+
+  * Ported from Bionic to Focal
+  * Added dependendy to lvm2
+
+ -- Jose <joamuran@gmail.com>  Fri, 03 Jul 2020 13:03:08 +0200
+
+justix-common-utils (0.0.15) bionic; urgency=high
+
+  * Moved /usr/share/{justix,ubuntu-mate} to justix-desktop-theme
+
+ -- Jose <joamuran@gmail.com>  Thu, 25 Jun 2020 00:07:48 +0200
+
+justix-common-utils (0.0.14) bionic; urgency=high
+
+  * Added ubuntu-make as dependency.
+
+ -- Jose <joamuran@gmail.com>  Thu, 21 May 2020 15:59:13 +0200
+
+justix-common-utils (0.0.13) bionic; urgency=high
+
+  * Added /usr/share/polkit-1/actions/org.oracle.virtualbox.policy to enable alumne to update VBox Extension Pack
+
+ -- Jose <joamuran@gmail.com>  Sun, 15 Dec 2019 16:33:19 +0100
+
+justix-common-utils (0.0.12) bionic; urgency=high
+
+  * Updated Virtualbox dependency from 6.0 to 6.1
+
+ -- Jose <joamuran@gmail.com>  Fri, 13 Dec 2019 10:28:23 +0100
+
+justix-common-utils (0.0.11) bionic; urgency=high
+
+  * Added quemu
+
+ -- Jose <joamuran@gmail.com>  Mon, 18 Nov 2019 08:49:18 +0100
+
+justix-common-utils (0.0.10) bionic; urgency=medium
+
+  * Added vagrant package as dependency
+
+ -- Jose <joamuran@gmail.com>  Tue, 09 Jul 2019 16:56:29 +0200
+
+justix-common-utils (0.0.9) bionic; urgency=high
+
+  * Solved vbox extension pack install bug
+
+ -- Jose <joamuran@gmail.com>  Wed, 12 Jun 2019 15:31:00 +0200
+
+justix-common-utils (0.0.8) bionic; urgency=high
+
+  * Fixed postinst
+
+ -- Jose <joamuran@gmail.com>  Wed, 12 Jun 2019 13:28:02 +0200
+
+justix-common-utils (0.0.7) bionic; urgency=high
+
+  * Moved devel dockitems from dam meta
+
+ -- Jose <joamuran@gmail.com>  Thu, 06 Jun 2019 11:57:06 +0200
+
+justix-common-utils (0.0.6) bionix; urgency=high
+
+  * Checks if VBox Ext Pack is in its last version
+  * Fixed suders issue in postinstall
+
+ -- Jose <joamuran@gmail.com>  Sun, 26 May 2019 09:56:57 +0200
+
+justix-common-utils (0.0.5) bionic; urgency=high
+
+  * Added dockitems for plank
+
+ -- Jose <joamuran@gmail.com>  Mon, 13 May 2019 13:25:19 +0200
+
+justix-common-utils (0.0.4) bionic; urgency=high
+
+  * Fixed Tilix vte configuration in bashrc
+  * Added pre-depends for justix-desktop-theme
+
+ -- Jose <joamuran@gmail.com>  Mon, 13 May 2019 09:15:30 +0200
+
+justix-common-utils (0.0.3) bionic; urgency=medium
+
+  * Added alumne restrictions to sudoers file
+
+ -- Jose <joamuran@gmail.com>  Tue, 23 Apr 2019 15:58:44 +0200
+
+justix-common-utils (0.0.2) bionic; urgency=medium
+
+  * Added Virtualbox
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Mon, 01 Apr 2019 16:56:49 +0200
+
+justix-common-utils (0.0.1) bionic; urgency=medium
+
+  * Initial Release.
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Sat, 25 Mar 2019 09:05:45 +0100

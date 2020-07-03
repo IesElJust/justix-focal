@@ -1,0 +1,12 @@
+Package: justix-common
+Version: 0.1
+Architecture: all
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Installed-Size: 32
+Depends: language-pack-es, language-pack-es-base, language-pack-gnome-es, language-pack-gnome-es-base, libreoffice-l10n-es
+Section: devel
+Priority: standard
+Homepage: https://github.com/IesElJust
+Description: Common justix config
+ Common users config for
+ Justix.

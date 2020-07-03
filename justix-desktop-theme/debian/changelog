@@ -1,0 +1,141 @@
+justix-desktop-theme (0.17.1) focal; urgency=high
+
+  * Ported from bionic
+
+ -- Jose <joamuran@gmail.com>  Fri, 03 Jul 2020 09:06:00 +0200
+
+justix-desktop-theme (0.16.1) bionic; urgency=high
+
+  * Fixed postinst for previous plank config checks
+
+ -- Jose <joamuran@gmail.com>  Sun, 28 Jun 2020 10:55:18 +0200
+
+justix-desktop-theme (0.16) bionic; urgency=high
+
+  * Fixed plymouth
+  * Added new release background
+
+ -- Jose <joamuran@gmail.com>  Sat, 27 Jun 2020 18:04:35 +0200
+
+justix-desktop-theme (0.15.1) bionic; urgency=high
+
+  * Added justix-text.plymouth
+
+ -- Jose <joamuran@gmail.com>  Thu, 25 Jun 2020 19:18:02 +0200
+
+justix-desktop-theme (0.15) bionic; urgency=high
+
+  * Moved /usr/share/{justix,ubuntu-mate} from justix-common-utils
+
+ -- Jose <joamuran@gmail.com>  Thu, 25 Jun 2020 00:10:29 +0200
+
+justix-desktop-theme (0.14.3) bionic; urgency=high
+
+  * Fixing plank config
+
+ -- Jose <joamuran@gmail.com>  Wed, 25 Sep 2019 11:30:18 +0200
+
+justix-desktop-theme (0.14.2) bionic; urgency=high
+
+  * Added control errors to postinsts
+
+ -- Jose <joamuran@gmail.com>  Wed, 04 Sep 2019 08:26:29 +0200
+
+justix-desktop-theme (0.14.1) bionic; urgency=high
+
+  * Fixed -p on mkdir for ubuntu-mate-welcome dir creation
+
+ -- Jose <joamuran@gmail.com>  Tue, 03 Sep 2019 10:52:45 +0200
+
+justix-desktop-theme (0.14) bionic; urgency=high
+
+  * Removed ubuntu-mate-welcome
+
+ -- Jose <joamuran@gmail.com>  Tue, 18 Jun 2019 20:10:35 +0200
+
+justix-desktop-theme (0.13) bionic; urgency=high
+
+  * hide ubuntu-mate-welcome by default
+
+ -- Jose <joamuran@gmail.com>  Mon, 17 Jun 2019 20:50:35 +0200
+
+justix-desktop-theme (0.12) bionic; urgency=high
+
+  * Added masalla icons for top panel
+
+ -- Jose <joamuran@gmail.com>  Wed, 12 Jun 2019 16:06:21 +0200
+
+justix-desktop-theme (0.11) bionic; urgency=high
+
+  * Fixed plymoutyh logo size
+
+ -- Jose <joamuran@gmail.com>  Wed, 12 Jun 2019 09:30:27 +0200
+
+justix-desktop-theme (0.10) bionic; urgency=high
+
+  * New theming
+
+ -- Jose <joamuran@gmail.com>  Thu, 06 Jun 2019 12:02:16 +0200
+
+justix-desktop-theme (0.9) bionic; urgency=high
+
+  * Added overlay for utils.desktop
+  * New backgorund
+
+ -- Jose <joamuran@gmail.com>  Thu, 30 May 2019 13:22:27 +0200
+
+justix-desktop-theme (0.8) bionic; urgency=high
+
+  * Removed dconf update
+  * Added dependency from gconf2
+
+ -- Jose <joamuran@gmail.com>  Sun, 19 May 2019 18:40:15 +0200
+
+justix-desktop-theme (0.7) bionic; urgency=high
+
+  * Adding diversions for ubuntu-mate-settings-overlay
+
+ -- Jose <joamuran@lgmail.com>  Thu, 16 May 2019 20:07:00 +0200
+
+justix-desktop-theme (0.6) bionic; urgency=high
+
+  * Removing dconf unused config
+
+ -- Jose <joamuran@gmail.com>  Mon, 13 May 2019 09:49:46 +0200
+
+justix-desktop-theme (0.5.1) bionic; urgency=high
+
+  * Removing current user config
+  * Removed update-alternatives --config for plymouth
+
+ -- Jose <joamuran@gmail.com>  Mon, 13 May 2019 08:36:26 +0200
+
+justix-desktop-theme (0.5) bionic; urgency=medium
+
+  * Added plymouth
+
+ -- Jose <joamuran@gmail.com>  Thu, 09 May 2019 13:40:02 +0200
+
+justix-desktop-theme (0.4) bionic; urgency=high
+
+  * Added panel settings
+
+ -- Jose <joamuran@gmail.com>  Wed, 08 May 2019 21:08:32 +0200
+
+justix-desktop-theme (0.3) bionic; urgency=high
+
+  * Wip on GSettings
+
+ -- Jose <joamuran@gmail.com>  Thu, 02 May 2019 10:19:35 +0200
+
+justix-desktop-theme (0.2) bionic; urgency=high
+
+  * Fixed GSettings file
+
+ -- Jose <joamuran@gmail.com>  Thu, 02 May 2019 09:51:16 +0200
+
+justix-desktop-theme (0.1) bionic; urgency=medium
+
+  * Initial release.
+
+ -- Jose <joamuran@gmail.com>  Wed, 24 Apr 2019 09:02:23 +0200
