@@ -2,7 +2,7 @@ Package: justix-external-sources
 Version: 20.0.1
 Architecture: all
 Maintainer: Jose A. Múrcia <joamuran@gmail.com>
-Installed-Size: 27
+Installed-Size: 26
 Pre-Depends: apt-transport-https, curl, ca-certificates, software-properties-common
 Section: devel
 Priority: standard
