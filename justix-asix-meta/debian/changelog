@@ -1,0 +1,23 @@
+justix-asix-meta (0.1.1) focal; urgency=high
+
+  * Ported from Bionic to Focal
+
+ -- Jose <joamuran@gmail.com>  Fri, 03 Jul 2020 17:14:37 +0200
+
+justix-asix-meta (0.0.3) bionic; urgency=high
+
+  * Added dependency to justix-audit-tools
+
+ -- Jose <joamuran@gmail.com>  Mon, 13 Jan 2020 08:43:33 +0100
+
+justix-asix-meta (0.0.2) bionic; urgency=high
+
+  * Added dependency for justix-cicles-meta
+
+ -- Jose <joamuran@gmail.com>  Wed, 12 Jun 2019 09:33:52 +0200
+
+justix-asix-meta (0.0.1) bionic; urgency=high
+
+  * Initial Release.
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Sat, 25 Mar 2019 09:05:45 +0100
