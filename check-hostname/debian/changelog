@@ -1,0 +1,11 @@
+check-hostname (1.1.1) focal; urgency=high
+
+  * Ported from Bionic
+
+ -- Jose <joamuran@gmail.com>  Fri, 03 Jul 2020 17:11:09 +0200
+
+check-hostname (1.0.1) bionic; urgency=high
+
+  * Initial Release.
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Sat, 23 Mar 2019 20:02:45 +0100
