@@ -25,9 +25,9 @@ creaAlumne()
 
 
 # Diverted files
-ORIG_FILE="/etc/os-release"
-MY_FILE="/etc/os-release.justix"
-MY_PACKAGE="justix-common"
+#ORIG_FILE="/etc/os-release"
+#MY_FILE="/etc/os-release.justix"
+#MY_PACKAGE="justix-common"
 
 
 case "$1" in
@@ -37,11 +37,11 @@ case "$1" in
 	    `grep -q alumne /etc/passwd` || creaAlumne
 
 	    # Adding diversion for lsb-release
-    	    if dpkg-divert --package ${MY_PACKAGE} --add  --no-rename  --divert ${ORIG_FILE}.real ${ORIG_FILE} ; then
- 	    	ln -fs ${MY_FILE} ${ORIG_FILE}
-            else
-	        echo "Unabe to divert file ${ORIG_FILE}"
-            fi
+    	    #if dpkg-divert --package ${MY_PACKAGE} --add  --no-rename  --divert ${ORIG_FILE}.real ${ORIG_FILE} ; then
+ 	    #	ln -fs ${MY_FILE} ${ORIG_FILE}
+            #else
+	    #    echo "Unabe to divert file ${ORIG_FILE}"
+            #fi
 
     ;;
 
