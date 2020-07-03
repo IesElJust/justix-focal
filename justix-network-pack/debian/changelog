@@ -1,0 +1,23 @@
+justix-network-pack (0.1.1) focal; urgency=high
+
+  * Ported from Bionic
+
+ -- Jose <joamuran@gmail.com>  Fri, 03 Jul 2020 17:50:44 +0200
+
+justix-network-pack (0.0.3) bionic; urgency=high
+
+  * Added: net-tools, eththool and mininet
+
+ -- Jose <joamuran@gmail.com>  Fri, 22 May 2020 13:16:34 +0200
+
+justix-network-pack (0.0.2) bionic; urgency=medium
+
+  * Added Google Chrome
+
+ -- Jose <joamuran@gmail.com>  Thu, 28 Mar 2019 13:04:58 +0100
+
+justix-network-pack (0.0.1) bionic; urgency=medium
+
+  * Initial Release.
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Sat, 25 Mar 2019 09:05:45 +0100
