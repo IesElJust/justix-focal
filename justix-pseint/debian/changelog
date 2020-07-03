@@ -1,0 +1,29 @@
+justix-pseint (0.3) focal; urgency=high
+
+  * Ported from Bionic
+
+ -- Jose <joamuran@gmail.com>  Fri, 03 Jul 2020 19:13:29 +0200
+
+justix-pseint (0.2) bionic; urgency=high
+
+  * Fixed
+
+ -- Jose <joamuran@gmail.com>  Wed, 01 May 2019 10:55:22 +0200
+
+justix-pseint (0.1) bionic; urgency=high
+
+  * Ported as an appImage
+
+ -- Jose <joamuran@gmail.com>  Tue, 30 Apr 2019 16:38:38 +0200
+
+justix-pseint (0.0.2) bionic; urgency=high
+
+  *  Fixed rules
+
+ -- Jose <joamuran@gmail.com>  Thu, 04 Apr 2019 20:11:56 +0200
+
+justix-pseint (0.0.1) bionic; urgency=medium
+
+  * Initial Release.
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Sat, 25 Mar 2019 09:05:45 +0100
