@@ -1,3 +1,9 @@
+justix-external-sources (0.1.1) focal; urgency=high
+
+ * Added mysql repo
+
+ -- Jose <joamuran@gmail.com>  Sun, 05 Jul 2020 08:33:23 +0200
+
 justix-external-sources (0.1) focal; urgency=high
 
   * Ported from Bionic
