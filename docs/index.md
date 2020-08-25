@@ -8,5 +8,5 @@ Justix va nàixer com una capa de programari i configuració per sobre d'Ubuntu 
 
 Actualment, ens basem en Ubuntu Mate 20.04, i teniu disponible una imatge *iso* per instal·lar-vos Justix al vostre ordinador i treballar amb el mateix sistema que tindreu a les aules del centre.
 
-<a style="display: block; margin-left: auto; margin-right: auto; width: 50%;" href="https://www.dropbox.com/sh/zveu1qd6nrcr2ay/AAAKf_XAN0r0ZGVuU_GJY_RQa?dl=0">Descarrega Justix ara!<img src="https://raw.githubusercontent.com/IesElJust/justix-focal/master/docs/_img/download.png"></img></a>
+<a style="display: block; margin-left: auto; margin-right: auto; width: 50%;" href="https://www.dropbox.com/sh/zveu1qd6nrcr2ay/AAAKf_XAN0r0ZGVuU_GJY_RQa?dl=0"><img src="https://raw.githubusercontent.com/IesElJust/justix-focal/master/docs/_img/download.png" /></a>
 
