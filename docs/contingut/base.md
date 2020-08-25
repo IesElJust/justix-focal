@@ -3,38 +3,71 @@ title: Justix base
 permalink: /base
 ---
 
-# Justix de base
+# Contingut de la iso i primers passos
 
-El paquet que s'encarrega de realitzar la instal·lació de programari de base per als cicles és el `justix-cicles-meta`. Aquest paquet realitza la instal·lació de diversos metapaquets que aporten progrmari divers. Veiem com s'organitza aquest.
+La iso de Justix disposa del programari bàsic per començar a treballar, i realitza certs ajustos al sistema per al millor funcionament possible de l'aula.
 
-![Escriptori](https://raw.githubusercontent.com/IesElJust/Bionic/master/docs/_img/escriptori.png)
+![Escriptori](../_img/escriptori.png)
+
+De manera predeterminada, i **tot i que en la instal·lació se us demana un usuari d'administració, Justix crea dos usuaris**:
+
+* Usuari `eljust` amb password `eljust`, com a usuari administrador del sistema, i
+* Usuari `alumne` amb password `alumne`, com a usuari administrador amb permissos restringits. Aquest usuari podrà actualitzar l'equip i instal·lar només alguns paquets.
+
+## Instal·lació a l'aula
+
+Per a la instal·lació a l'aula, s'usaran les imatges crades a partir de la ISO, tenint en compte els següents aspectes:
+
+* Els ordinadors per defecte es diuen *justix*. Quan arranquem per primera vegada com a administradors, comprovarà que el nom és aquest i ens demanarà que el canviem, segon el nom d'ordinador a l'aula.
+* Caldrà canviar amb `passwd` la contrassenya de l'usuari administrador.
+* Els alumnes podran modificar-se també la seua contrassenya d'accés.
+* A cada aula de cicles, faltarà per instal·lar el metapaquet corresponent al cicle en qüestió.
+* Per als ordinadors del professor, s'instal·larà el paquet `justix-profe`, que afig un parell d'eines com l'`arpon`, per evitar atacs ARP i el `Cluster-ssh`, per accedir als equips de l'aula de forma més fàcil. A més, aquest paquet crea els usuaris genèrics **profe**, **fol** i **angles**, sense permissos d'administració.
+
+## Instal·lació des de la iso
+
+Per tal d'instal·lar *Justix* a un ordinador d'escriptori, caldrà descarregar [la imatge iso](https://www.dropbox.com/sh/zveu1qd6nrcr2ay/AAAKf_XAN0r0ZGVuU_GJY_RQa?dl=0) i generar un USB d'arrencada amb ella.
+
+Si s'inicia la imatge en mode *live*, és a dir, en lloc de l'instal·lador, arrancant directament el sistema des de l'USB, l'usuari per accedir al sistema serà l'usuari ***eljust***, amb contrassenya ***eljust***. En aquest mode, per tal de fer la instal·lació, no disposem d'un accés directe a l'escriptori, sinò que s'ha d'invocar l'instal·lador des de la línia d'ordres. Per a això, obrirem el Tilix, i llançarem l'ordre:
+
+```
+sudo ubiquity
+```
+Amb això se'ns iniciarà l'assistent d'instal·lació.
+
+Cal recordar que, tot i que ens demanarà en una pantalla de configuració el nom d'usuari administrador i la contrassenya, la instal·lació de base de Justix sobreescriu aquests amb els usuaris `eljust` (administrador) i `alumne`.
 
 ## Entorn d'escriptori
 
-La capa de personalització de l'escriptori es realitza a través del paquet `justix-cicles-meta`, i afig el següent **programari** al sistema:
+L'entorn d'escriptori de Justix és Ubuntu Mate, personalitzada de manera que:
 
-| Aplicació | Descripció |
-|-----------|------------|
-| plank     | Dock inferior |
-| arc-theme | Temàtica per a les finestres |
-| xenlism-wildfire-icon-theme | Joc d'icones principal |
+* Disposa d'una barra superior amb el menú principal, els escriptoris, rellotge i la safata del sistema.
+* A la part inferior disposem d'un *dock* amb accessos directes a les aplicacions més comunes, i que farà també de barra de tasques.
+* De manera predeterminada, utilitza l'emulador de terminal *Tilix*, que ens permet partir la pantalla en diverses particions, tant horitzontals com verticals.
 
-A més, afig una **configuració** personalitzada del *dock plank* per tal de disposar d'accessos directes i carpetes d'accessos a les aplicacions més utilitzades.
+## L'usuari alumne
 
-## Creació de l'usuari alumne
+L'usuari predeterminat *alumne* pot realitzar diverses accions amb `sudo`, entre elles:
 
-El paquet `justix-common` s'encarrega principalment de crear l'usuari `alumne` i afegir-lo al grup d'admonostradors amb permisos restringits.
+* Actualitzar i netejar el sistema (`update`, `upgrade`, `dist-upgrade` i `clean`),
+* Actualitzar els paquets *Snap* (`snap refresh`)
+* Instal·lar els metapaquets corresponents als diferents cicles (`justix-asix-meta`, `justix-dam-meta` i `justix-smx-meta`),
+* Executar *qemu* com a root,
+* Actualitzar l'*Extension Pack* de Virtualbox, que requereix permís d'administrador,
+* Instal·lar aplicacions de desenvolupament amb d'Ubuntu Make (`umake`),
+* Treballar amb *Mininet* (`mn` i `mnexec`)
+* Treballar amb Docker
 
 ## Eines comunes
    
-Justix aporta una sèrie d'utilitats d'ús comú  i per millorar el sistema que no venen per defecte en Ubuntu, a través del paquet `justix-common-utils`. Aquest paquets instal·la el següent **programari**:
+La instal·lació de base de Justix aporta una sèrie d'utilitats d'ús comú  i per millorar el sistema que no venen per defecte en Ubuntu:
 
 | Aplicació | Descripció |
 |-----------|------------|
 | tilix     | Terminal de tipus mosaic, com a alternativa al mate-terminal, que ens permet partir la finestra tant com desitgem |
 | vim       | Editor de text |
 | tree      | Llistat de directoris en forma d'arbre |
-| Oracle Virtualbox 6.0 | Programari de virtualització  |
+| Oracle Virtualbox 6.1 | Programari de virtualització  |
 | docker-ce | Interfície en línia d'ordres pe gestionar imatges i contenidors Docker |
 | docker-compose | Eina per crear i executar aplicacions multi-contenidor amb Docker |
 
@@ -52,32 +85,4 @@ A través del paquet `justix-network-pack`, s'instal·la el següent programari:
 | google-chrome-stable | Navegador web |
 
 
-## Arbre de dependències
-
-A continuació es detalla l'arbre de dependències del paquet `justix-cicles-meta`:
-
-```
-justix-cicles-meta
-   justix-desktop-theme
-     plank
-     arc-theme
-     xenlism-wildfire-icon-theme
-     tilix
-   justix-common
-   justix-common-utils
-     justix-external-sources
-     justix-common
-     ubuntu-mate-default-settings
-     tilix
-     vim
-     tree
-     virtualbox-6.0
-     docker-ce
-     docker-compose
-   justix-network-pack
-     justix-external-sources
-     nmap
-     openssh-server
-     filezilla
-     google-chrome-stable
-```
+Per a informació més detallada dels paquets, podeu consultar la documentació de la versió 18.04.
