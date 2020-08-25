@@ -7,7 +7,7 @@ permalink: /base
 
 La iso de Justix disposa del programari bàsic per començar a treballar, i realitza certs ajustos al sistema per al millor funcionament possible de l'aula.
 
-![Escriptori](../_img/escriptori.png)
+![Escriptori](https://raw.githubusercontent.com/IesElJust/justix-focal/master/docs/_img/escriptori.png)
 
 De manera predeterminada, i **tot i que en la instal·lació se us demana un usuari d'administració, Justix crea dos usuaris**:
 
