@@ -1,0 +1,16 @@
+Source: justix-desktop-theme-virtual
+Section: misc
+Priority: optional
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: http://www.ieseljust.com
+
+Package: justix-desktop-theme-virtual
+Architecture: any
+Provides: justix-desktop-theme
+Conflicts: justix-desktop-theme
+Depends: ${misc:Depends}, tilix
+Description: Virtual justix theme
+ Virtual package to make Justix
+ flavour independent.
