@@ -1,0 +1,14 @@
+Source: justix-cicles-meta-standalone
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-cicles-meta-standalone
+Architecture: all
+Depends: ${misc:Depends}, justix-network-pack, libreoffice-l10n-es, tilix, vim, tree, virtualbox-6.1, docker-ce, docker-compose, vagrant,qemu-kvm, qemu-system-x86, qemu-utils,ubuntu-make, lvm2
+Description: Meta Standalone for Cicles
+ Metapackage for common applications
+ for Justix independent from Mate.

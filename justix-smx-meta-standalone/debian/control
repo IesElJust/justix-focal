@@ -1,0 +1,15 @@
+Source: justix-smx-meta-standalone
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-smx-meta-standalone
+Architecture: all
+Pre-Depends: justix-cicles-meta, snapd
+Depends: ${misc:Depends}, justix-office-pack, justix-multimedia-pack
+Description: Meta for SMX
+ Metapackage for SMX Tools
+ for Justix.

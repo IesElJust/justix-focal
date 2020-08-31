@@ -1,0 +1,14 @@
+Source: justix-db-pack-standalone
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-db-pack-standalone
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, mysql-workbench-community, mongodb-org
+Description: Database pack for Justix
+ Metapackage for Database tools
+ for Justix.

@@ -1,0 +1,5 @@
+justix-db-pack-standalone (0.1.2) focal; urgency=high
+
+  * Initial release, withouth mysql-server dependency
+
+ -- Jose <joamuran@gmail.com>  Mon, 31 Aug 2020 08:42:32 +0200
