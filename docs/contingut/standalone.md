@@ -3,7 +3,7 @@ title: Justix i Ubuntu
 permalink: /standalone
 ---
 
-# Instal·lació del progrmaari de JustiX a Ubuntu i derivades
+# Instal·lació del programari de JustiX a Ubuntu i derivades
 
 JustiX es basa en Ubuntu Mate 20.04, pel que és totalment compatible amb qualsevol sabor d'Ubuntu o distribució derivada (Xubuntu, Kubuntu, LinuX Mint, KDE Neon, etc.)
 
