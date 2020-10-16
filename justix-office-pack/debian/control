@@ -8,7 +8,7 @@ Homepage: https://github.com/IesElJust
 
 Package: justix-office-pack
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libreoffice-base-core, libreoffice-base
+Depends: ${shlibs:Depends}, ${misc:Depends}, libreoffice-base-core, libreoffice-base, default-jre
 Description: Office pack for Justix
  Metapackage for extra libreoffice extra
  packages.
