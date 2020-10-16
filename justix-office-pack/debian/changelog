@@ -2,7 +2,7 @@ justix-office-pack (0.1.2) focal; urgency=high
 
   * Added default-jre dependency
 
- -- Jose A. Múrcia <joamuran@gmail.com>  Fri, 16 Oct 2020 16:28:16 +0200
+ -- Jose A. Murcia <joamuran@gmail.com> Fri, 16 Oct 2020 16:28:16 +0200
 
 justix-office-pack (0.1.1) focal; urgency=high
 
