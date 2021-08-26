@@ -1,0 +1,6 @@
+justix-db-pack-lite (0.2) focal; urgency=high
+
+  * forked from justix-db-pack removing mysql-server and mongodb-org
+
+ -- Jose <joamuran@gmail.com>  Sun, 05 Jul 2020 08:42:32 +020
+
