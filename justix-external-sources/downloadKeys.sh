@@ -8,7 +8,7 @@ mkdir ${GPG_PATH}
 # MongoDB
 # Amb apt-key:     apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
 echo "[Justix] Downloading mongoDB keys..."
-curl "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x68818C72E52529D4" | gpg --dearmor > ${GPG_PATH}/mongodb.gpg
+curl "https://www.mongodb.org/static/pgp/server-5.0.asc" | gpg --dearmor > ${GPG_PATH}/mongodb.gpg
 
 echo "[Justix] Downloading VSCode keys..."
 curl "https://packages.microsoft.com/keys/microsoft.asc" | gpg --dearmor > ${GPG_PATH}/microsoft.gpg
