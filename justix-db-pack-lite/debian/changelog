@@ -1,6 +1,29 @@
-justix-db-pack-lite (0.2) focal; urgency=high
+justix-db-pack-lite (0.2) bionic; urgency=high
 
   * forked from justix-db-pack removing mysql-server and mongodb-org
 
- -- Jose <joamuran@gmail.com>  Sun, 05 Jul 2020 08:42:32 +020
+ -- Jose A. Múrcia <joamuran@gmail.com>  Sat, 28 Aug 2021 17:01:16 +0200
 
+justix-db-pack (0.1.2) focal; urgency=high
+
+  * Fixed mysql-workbench dependency by mysql-workbench-community
+
+ -- Jose <joamuran@gmail.com>  Sun, 05 Jul 2020 08:42:32 +0200
+
+justix-db-pack (0.1.1) focal; urgency=high
+
+  * Ported from Bionic 
+
+ -- Jose <joamuran@gmail.com>  Fri, 03 Jul 2020 17:41:17 +0200
+
+justix-db-pack (0.0.2) bionic; urgency=high
+
+  * Added mysql-server dependency
+
+ -- Jose <joamuran@gmail.com>  Mon, 09 Sep 2019 15:22:15 +0200
+
+justix-db-pack (0.0.1) bionic; urgency=medium
+
+  * Initial Release.
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Sat, 25 Mar 2019 09:05:45 +0100
