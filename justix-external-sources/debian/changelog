@@ -1,3 +1,9 @@
+justix-external-sources (0.1.4) focal; urgency=high
+
+  * Fixed mongodb in preinst, maintaining keys for 4.2 and 5.0
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Sun, 29 Aug 2021 08:01:20 +0200
+
 justix-external-sources (0.1.3) focal; urgency=medium
 
   * Changed mongodb-org 4.2 by 5.0
