@@ -17,7 +17,7 @@ set -e
 declare -A keys
 
 keys[0, name]="MongoDB"
-keys[0, url]="https://www.mongodb.org/static/pgp/server-4.2.asc"
+keys[0, url]="https://www.mongodb.org/static/pgp/server-5.0.asc"
 keys[0, tmpfile]="mongodb.gpg";
 
 keys[1, name]="VSCode";
