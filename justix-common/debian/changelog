@@ -1,3 +1,9 @@
+justix-common (0.2) focal; urgency=high
+
+  * new alumne-install sudoers file for install multiple packages
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Sun, 29 Aug 2021 18:02:02 +0200
+
 justix-common (0.1.1) focal; urgency=high
 
   * Added snap install hugo capabilities for alumne

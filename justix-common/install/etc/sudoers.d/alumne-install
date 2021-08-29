@@ -1,0 +1,121 @@
+################################################
+# Política de seguretat per a la instal·lació  #
+# d'aplicacions per part de l'usuari "alumne"  #
+################################################
+
+
+# LES VARIABLES GLOBALS LES AGAFA DEL FITXER ALUMNE
+
+#### ORDRES
+
+# Alias per a les ordres
+Cmnd_Alias CMD_APT_INSTALL_DOCKER_CE = /usr/bin/apt install docker-ce
+Cmnd_Alias CMD_APT_INSTALL_DOCKER_COMPOSE = /usr/bin/apt install docker-compose
+Cmnd_Alias CMD_APT_INSTALL_VAGRANT = /usr/bin/apt install vagrant
+Cmnd_Alias CMD_APT_INSTALL_QEMU_KVM = /usr/bin/apt install qemu-kvm
+Cmnd_Alias CMD_APT_INSTALL_QEMU_SYSTEM_X86 = /usr/bin/apt install qemu-system-x86
+Cmnd_Alias CMD_APT_INSTALL_QEMU_UTILS = /usr/bin/apt install qemu-utils
+Cmnd_Alias CMD_APT_INSTALL_MININET = /usr/bin/apt install mininet
+Cmnd_Alias CMD_APT_INSTALL_PANDOC = /usr/bin/apt install pandoc
+Cmnd_Alias CMD_APT_INSTALL_RCS = /usr/bin/apt install rcs
+Cmnd_Alias CMD_APT_INSTALL_RCS_BLAME = /usr/bin/apt install rcs-blame
+Cmnd_Alias CMD_APT_INSTALL_SUBVERSION = /usr/bin/apt install subversion
+Cmnd_Alias CMD_APT_INSTALL_GIT = /usr/bin/apt install git
+Cmnd_Alias CMD_APT_INSTALL_MONGODB_ORG = /usr/bin/apt install mongodb-org
+Cmnd_Alias CMD_APT_INSTALL_MYSQL_SERVER = /usr/bin/apt install mysql-server
+Cmnd_Alias CMD_APT_INSTALL_JUSTIX_PSEINT = /usr/bin/apt install justix-pseint
+Cmnd_Alias CMD_APT_INSTALL_GEANY = /usr/bin/apt install geany
+Cmnd_Alias CMD_APT_INSTALL_NODEJS = /usr/bin/apt install nodejs
+Cmnd_Alias CMD_APT_INSTALL_NPM = /usr/bin/apt install npm
+Cmnd_Alias CMD_APT_INSTALL_GRADLE = /usr/bin/apt install gradle
+Cmnd_Alias CMD_APT_INSTALL_ANT = /usr/bin/apt install ant
+Cmnd_Alias CMD_APT_INSTALL_MAVEN = /usr/bin/apt install maven
+Cmnd_Alias CMD_APT_INSTALL_SNAPD = /usr/bin/apt install snapd
+Cmnd_Alias CMD_APT_INSTALL_GIMP = /usr/bin/apt install gimp
+Cmnd_Alias CMD_APT_INSTALL_INKSCAPE = /usr/bin/apt install inkscape
+Cmnd_Alias CMD_APT_INSTALL_AUDACITY = /usr/bin/apt install audacity
+Cmnd_Alias CMD_APT_INSTALL_KDENLIVE = /usr/bin/apt install kdenlive
+
+Cmnd_Alias CMD_APT_GET_INSTALL_DOCKER_CE = /usr/bin/apt-get install docker-ce
+Cmnd_Alias CMD_APT_GET_INSTALL_DOCKER_COMPOSE = /usr/bin/apt-get install docker-compose
+Cmnd_Alias CMD_APT_GET_INSTALL_VAGRANT = /usr/bin/apt-get install vagrant
+Cmnd_Alias CMD_APT_GET_INSTALL_QEMU_KVM = /usr/bin/apt-get install qemu-kvm
+Cmnd_Alias CMD_APT_GET_INSTALL_QEMU_SYSTEM_X86 = /usr/bin/apt-get install qemu-system-x86
+Cmnd_Alias CMD_APT_GET_INSTALL_QEMU_UTILS = /usr/bin/apt-get install qemu-utils
+Cmnd_Alias CMD_APT_GET_INSTALL_MININET = /usr/bin/apt-get install mininet
+Cmnd_Alias CMD_APT_GET_INSTALL_PANDOC = /usr/bin/apt-get install pandoc
+Cmnd_Alias CMD_APT_GET_INSTALL_RCS = /usr/bin/apt-get install rcs
+Cmnd_Alias CMD_APT_GET_INSTALL_RCS_BLAME = /usr/bin/apt-get install rcs-blame
+Cmnd_Alias CMD_APT_GET_INSTALL_SUBVERSION = /usr/bin/apt-get install subversion
+Cmnd_Alias CMD_APT_GET_INSTALL_GIT = /usr/bin/apt-get install git
+Cmnd_Alias CMD_APT_GET_INSTALL_MONGODB_ORG = /usr/bin/apt-get install mongodb-org
+Cmnd_Alias CMD_APT_GET_INSTALL_MYSQL_SERVER = /usr/bin/apt-get install mysql-server
+Cmnd_Alias CMD_APT_GET_INSTALL_JUSTIX_PSEINT = /usr/bin/apt-get install justix-pseint
+Cmnd_Alias CMD_APT_GET_INSTALL_GEANY = /usr/bin/apt-get install geany
+Cmnd_Alias CMD_APT_GET_INSTALL_NODEJS = /usr/bin/apt-get install nodejs
+Cmnd_Alias CMD_APT_GET_INSTALL_NPM = /usr/bin/apt-get install npm
+Cmnd_Alias CMD_APT_GET_INSTALL_GRADLE = /usr/bin/apt-get install gradle
+Cmnd_Alias CMD_APT_GET_INSTALL_ANT = /usr/bin/apt-get install ant
+Cmnd_Alias CMD_APT_GET_INSTALL_MAVEN = /usr/bin/apt-get install maven
+Cmnd_Alias CMD_APT_GET_INSTALL_SNAPD = /usr/bin/apt-get install snapd
+Cmnd_Alias CMD_APT_GET_INSTALL_GIMP = /usr/bin/apt-get install gimp
+Cmnd_Alias CMD_APT_GET_INSTALL_INKSCAPE = /usr/bin/apt-get install inkscape
+Cmnd_Alias CMD_APT_GET_INSTALL_AUDACITY = /usr/bin/apt-get install audacity
+Cmnd_Alias CMD_APT_GET_INSTALL_KDENLIVE = /usr/bin/apt-get install kdenlive
+
+
+
+#### REGLES
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_DOCKER_CE
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_DOCKER_COMPOSE
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_VAGRANT
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_QEMU_KVM
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_QEMU_SYSTEM_X86
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_QEMU_UTILS
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_MININET
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_PANDOC
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_RCS
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_RCS_BLAME
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_SUBVERSION
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_GIT
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_MONGODB_ORG
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_MYSQL_SERVER
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_JUSTIX_PSEINT
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_GEANY
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_NODEJS
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_NPM
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_GRADLE
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_ANT
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_MAVEN
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_SNAPD
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_GIMP
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_INKSCAPE
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_AUDACITY
+ALUMNE ALL = PASSWD:CMD_APT_INSTALL_KDENLIVE
+
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_DOCKER_CE
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_DOCKER_COMPOSE
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_VAGRANT
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_QEMU_KVM
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_QEMU_SYSTEM_X86
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_QEMU_UTILS
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_MININET
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_PANDOC
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_RCS
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_RCS_BLAME
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_SUBVERSION
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_GIT
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_MONGODB_ORG
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_MYSQL_SERVER
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_JUSTIX_PSEINT
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_GEANY
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_NODEJS
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_NPM
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_GRADLE
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_ANT
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_MAVEN
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_SNAPD
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_GIMP
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_INKSCAPE
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_AUDACITY
+ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_KDENLIVE
