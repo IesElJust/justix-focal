@@ -1,3 +1,9 @@
+justix-db-pack-lite (0.2.1) focal; urgency=high
+
+  * Removed sudoers.d file. Rules included in justix-common package
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Mon, 30 Aug 2021 08:14:58 +0200
+
 justix-db-pack-lite (0.2) bionic; urgency=high
 
   * forked from justix-db-pack removing mysql-server and mongodb-org
