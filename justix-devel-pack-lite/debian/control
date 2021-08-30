@@ -9,7 +9,8 @@ Homepage: https://github.com/IesElJust
 Package: justix-devel-pack-lite
 Architecture: any
 Pre-Depends: justix-external-sources
-Depends: ${shlibs:Depends}, ${misc:Depends}, code, justix-pseint, geany, nodejs, npm
+Depends: ${shlibs:Depends}, ${misc:Depends}, code
+# justix-pseint, geany, nodejs, npm
 Description: Developement justix pack
  Metapackage for Common Developement tools
  for Justix.
