@@ -1,3 +1,9 @@
+justix-network-pack (0.1.2) focal; urgency=high
+
+  * Removed mininet dependency. Can be installed by alumne.
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Mon, 30 Aug 2021 08:26:54 +0200
+
 justix-network-pack (0.1.1) focal; urgency=high
 
   * Ported from Bionic
