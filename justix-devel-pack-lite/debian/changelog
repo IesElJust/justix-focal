@@ -1,0 +1,42 @@
+justix-devel-pack-lite (0.2) focal; urgency=high
+
+  * Fork from justix-devel-pack
+  * Removed dependencies from justix-pseint, geany, nodejs and npm (optional in justix-common)
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Mon, 30 Aug 2021 08:01:34 +0200
+
+justix-devel-pack (0.1.1) focal; urgency=high
+
+  * Ported from Bionic
+
+ -- Jose <joamuran@gmail.com>  Fri, 03 Jul 2020 17:43:32 +0200
+
+justix-devel-pack (0.0.5) bionic; urgency=high
+
+  * Added nodejs and npm
+
+ -- Jose <joamuran@gmail.com>  Thu, 05 Dec 2019 09:10:26 +0100
+
+justix-devel-pack (0.0.4) bionic; urgency=high
+
+  * Added geany dependency
+
+ -- Jose <joamuran@gmail.com>  Mon, 09 Sep 2019 15:19:03 +0200
+
+justix-devel-pack (0.0.3) bionic; urgency=high
+
+  * Fixed
+
+ -- Jose <joamuran@gmail.com>  Fri, 10 May 2019 11:49:00 +0200
+
+justix-devel-pack (0.0.2) bionic; urgency=medium
+
+  * Added pseint
+
+ -- Jose <joamuran@gmail.com>  Thu, 04 Apr 2019 19:53:16 +0200
+
+justix-devel-pack (0.0.1) bionic; urgency=medium
+
+  * Initial Release.
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Sat, 25 Mar 2019 09:05:45 +0100
