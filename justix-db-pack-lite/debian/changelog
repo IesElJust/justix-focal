@@ -1,3 +1,9 @@
+justix-db-pack-lite (0.2.2) focal; urgency=high
+
+  * Fixed bug, skel installed by error
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Mon, 30 Aug 2021 10:44:15 +0200
+
 justix-db-pack-lite (0.2.1) focal; urgency=high
 
   * Removed sudoers.d file. Rules included in justix-common package
