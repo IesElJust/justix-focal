@@ -1,3 +1,9 @@
+justix-common-utils (0.2) focal; urgency=high
+
+  * Removed dependencies from docker, vagant and qemu: Intallable by users.
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Mon, 30 Aug 2021 08:46:40 +0200
+
 justix-common-utils (0.1.1) focal; urgency=high
 
   * Ported from Bionic to Focal

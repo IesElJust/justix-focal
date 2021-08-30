@@ -10,7 +10,8 @@ Package: justix-common-utils
 Architecture: all
 #Pre-Depends: justix-external-sources, justix-common, ubuntu-mate-default-settings
 Pre-Depends: justix-external-sources, justix-common
-Depends: ${misc:Depends}, tilix, vim, tree, virtualbox-6.1, docker-ce, docker-compose, vagrant,qemu-kvm, qemu-system-x86, qemu-utils,ubuntu-make, lvm2
+Depends: ${misc:Depends}, tilix, vim, tree, virtualbox-6.1, ubuntu-make, lvm2
+# docker-ce, docker-compose, vagrant,qemu-kvm, qemu-system-x86, qemu-utils
 Description: Common justix tools
  Metapackage for Common tools
  for Justix.
