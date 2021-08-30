@@ -1,0 +1,15 @@
+Source: justix-asix-meta-lite
+Section: devel
+Priority: standard
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/IesElJust
+
+Package: justix-asix-meta-lite
+Architecture: all
+Pre-Depends: justix-cicles-meta
+Depends: ${misc:Depends}, justix-db-pack-lite, justix-devel-pack-lite, justix-audit-tools
+Description: Meta for ASIX
+ Metapackage for ASIX Tools
+ for Justix.
