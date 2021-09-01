@@ -9,7 +9,7 @@ Homepage: https://github.com/IesElJust
 Package: justix-common
 Architecture: all
 #Pre-Depends: justix-desktop-theme
-Depends: ${misc:Depends},language-pack-es,language-pack-es-base,language-pack-gnome-es,language-pack-gnome-es-base,libreoffice-l10n-es
+Depends: ${misc:Depends},language-pack-es,language-pack-es-base,language-pack-gnome-es,language-pack-gnome-es-base,libreoffice-l10n-es,axel
 Description: Common justix config
  Common users config for
  Justix.

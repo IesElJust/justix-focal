@@ -1,3 +1,9 @@
+justix-common (0.2.2) focal; urgency=high
+
+  * Added just install packettracer installer. 
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Tue, 31 Aug 2021 11:01:48 +0200
+
 justix-common (0.2.1) focal; urgency=high
 
   * Added rules to install lite package versions
