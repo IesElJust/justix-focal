@@ -1,3 +1,9 @@
+justix-common (0.2.3) focal; urgency=high
+
+  * Added rules to install python3_venv
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Tue, 14 Sep 2021 11:36:11 +0200
+
 justix-common (0.2.2) focal; urgency=high
 
   * Added just install packettracer installer. 
