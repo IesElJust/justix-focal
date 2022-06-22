@@ -16,9 +16,10 @@ set -e
 
 declare -A keys
 
-keys[0, name]="MongoDB"
-keys[0, url]="https://www.mongodb.org/static/pgp/server-4.2.asc"
-keys[0, tmpfile]="mongodb.gpg";
+keys[0, name]="MongoDB 6.0"
+#keys[0, url]="https://www.mongodb.org/static/pgp/server-4.2.asc"
+keys[0, url]="https://pgp.mongodb.com/server-6.0.asc"
+keys[0, tmpfile]="mongodb6.gpg";
 
 keys[1, name]="VSCode";
 keys[1, url]="https://packages.microsoft.com/keys/microsoft.asc";
@@ -53,11 +54,12 @@ keys[8, url]="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2A8F89B722
 keys[8, tmpfile]="umake.gpg";
 
 keys[6, name]="MySQL";
-keys[6, url]="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8C718D3B5072E1F5";
+#keys[6, url]="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8C718D3B5072E1F5";
+keys[6, url]="http://repo.mysql.com/RPM-GPG-KEY-mysql-2022";
 keys[6, tmpfile]="mysql.gpg";
 
 keys[9, name]="MongoDB 5"
-keys[9, url]="https://www.mongodb.org/static/pgp/server-5.0.asc"
+keys[9, url]="https://pgp.mongodb.com/server-5.0.asc"
 keys[9, tmpfile]="mongodb5.gpg";
 
 

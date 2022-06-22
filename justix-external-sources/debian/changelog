@@ -1,3 +1,11 @@
+justix-external-sources (0.1.5) focal; urgency=high
+
+  * Fixed MonogoDB install bugs
+  * Added MongoDB 6.0 repo
+  * Updated MySQL keys
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Wed, 22 Jun 2022 15:40:25 +0200
+
 justix-external-sources (0.1.4) focal; urgency=high
 
   * Fixed mongodb in preinst, maintaining keys for 4.2 and 5.0
