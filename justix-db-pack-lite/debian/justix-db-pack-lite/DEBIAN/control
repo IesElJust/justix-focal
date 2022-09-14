@@ -1,0 +1,12 @@
+Package: justix-db-pack-lite
+Version: 0.2.2
+Architecture: amd64
+Maintainer: Jose A. Múrcia <joamuran@gmail.com>
+Installed-Size: 9
+Depends: mysql-workbench-community
+Section: devel
+Priority: standard
+Homepage: https://github.com/IesElJust
+Description: Database pack for Justix
+ Metapackage for Database tools
+ for Justix.

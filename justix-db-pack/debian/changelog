@@ -1,3 +1,9 @@
+justix-db-pack (0.1.3) focal; urgency=high
+
+  * Removed mysql-workbench-community
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Wed, 14 Sep 2022 22:40:21 +0200
+
 justix-db-pack (0.1.2) focal; urgency=high
 
   * Fixed mysql-workbench dependency by mysql-workbench-community

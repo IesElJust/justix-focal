@@ -1,3 +1,9 @@
+justix-common (0.2.4) focal; urgency=high
+
+  * Added rules to install code
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Mon, 29 Aug 2022 09:17:08 +0200
+
 justix-common (0.2.3) focal; urgency=high
 
   * Added rules to install python3_venv
