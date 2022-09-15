@@ -66,6 +66,7 @@ Cmnd_Alias CMD_APT_GET_INSTALL_AUDACITY = /usr/bin/apt-get install audacity
 Cmnd_Alias CMD_APT_GET_INSTALL_KDENLIVE = /usr/bin/apt-get install kdenlive
 Cmnd_Alias CMD_APT_GET_INSTALL_PYTHON3_VENV = /usr/bin/apt-get install python3-venv
 Cmnd_Alias CMD_APT_GET_INSTALL_CODE = /usr/bin/apt-get install code
+Cmnd_Alias CMD_SNAP_INSTALL_MYSQL_WORKBENCH = /usr/bin/snap install mysql-workbench-community
 
 #### REGLES
 ALUMNE ALL = PASSWD:CMD_APT_INSTALL_DOCKER_CE
@@ -126,3 +127,4 @@ ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_AUDACITY
 ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_KDENLIVE
 ALUMNE ALL = PASSWD:CMD_APT_GET_INSTALL_PYTHON3_VENV
 
+ALUMNE ALL = PASSWD:CMD_SNAP_INSTALL_MYSQL_WORKBENCH

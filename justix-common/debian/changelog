@@ -1,3 +1,9 @@
+justix-common (0.2.5) focal; urgency=high
+
+  * Add rule to install mysql-workbench-community via snapd
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Thu, 15 Sep 2022 06:01:51 +0200
+
 justix-common (0.2.4) focal; urgency=high
 
   * Added rules to install code
