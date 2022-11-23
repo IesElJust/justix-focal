@@ -9,7 +9,7 @@ Homepage: https://github.com/IesElJust
 Package: justix-asix-meta
 Architecture: all
 Pre-Depends: justix-cicles-meta
-Depends: ${misc:Depends}, justix-db-pack, justix-devel-pack, justix-audit-tools
+Depends: ${misc:Depends}, justix-db-pack, justix-devel-pack, justix-audit-tools, wireshark
 Description: Meta for ASIX
  Metapackage for ASIX Tools
  for Justix.
