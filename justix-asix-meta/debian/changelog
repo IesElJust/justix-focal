@@ -1,4 +1,4 @@
-justix-asix-meta (0.1.2) bionic; urgency=high
+justix-asix-meta (0.1.2) focal; urgency=high
 
   * Added wireshark
 
