@@ -1,4 +1,10 @@
-justix-asix-meta (0.1.2) focal; urgency=high
+justix-asix-meta (0.1.3) focal; urgency=high
+
+  * Fixed version
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Thu, 24 Nov 2022 10:53:49 +0100
+
+justix-asix-meta (0.1.2) bionic; urgency=high
 
   * Added wireshark
 
