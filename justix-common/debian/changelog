@@ -1,3 +1,9 @@
+justix-common (0.2.6) focal; urgency=high
+
+  * Added suppor to install Unity Hub
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Tue, 17 Jan 2023 07:12:21 +0100
+
 justix-common (0.2.5) focal; urgency=high
 
   * Add rule to install mysql-workbench-community via snapd
