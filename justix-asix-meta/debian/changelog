@@ -1,3 +1,9 @@
+justix-asix-meta (0.1.4) focal; urgency=high
+
+  * Added alumne to wireshark group
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Wed, 30 Nov 2022 08:47:19 +0100
+
 justix-asix-meta (0.1.3) focal; urgency=high
 
   * Fixed version

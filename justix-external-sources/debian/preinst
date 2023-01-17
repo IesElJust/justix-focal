@@ -62,7 +62,6 @@ keys[9, name]="MongoDB 5"
 keys[9, url]="https://pgp.mongodb.com/server-5.0.asc"
 keys[9, tmpfile]="mongodb5.gpg";
 
-
 case "$1" in
     install|upgrade)
 
@@ -84,6 +83,11 @@ case "$1" in
         fi 
 
     done
+
+    # Instal·lació de la clau de UnityHub
+    echo -e "\e[1m\e[93m [Justix] \e[95m Downloading Unity3D keys... \e[0m"
+    wget -qO - https://hub.unity3d.com/linux/keys/public | sudo apt-key add -
+
    
       
 

@@ -1,3 +1,9 @@
+justix-external-sources (0.1.6) focal; urgency=high
+
+  * Added Unity Hub support
+
+ -- Jose A. Múrcia <joamuran@gmail.com>  Tue, 17 Jan 2023 07:03:41 +0100
+
 justix-external-sources (0.1.5) focal; urgency=high
 
   * Fixed MonogoDB install bugs

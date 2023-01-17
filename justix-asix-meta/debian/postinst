@@ -29,6 +29,9 @@ case "$1" in
               [ -f "$DESKTOP" -a ! -L  "/usr/share/justix/folder-groups/devel/$APP" ] && ln -s $DESKTOP /usr/share/justix/folder-groups/devel/
 
     done
+
+    # Afegint l'usuari alumne al grup wireshark
+    sudo usermod -a -G wireshark alumne
     
     ;;
 
